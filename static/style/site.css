@@ -73,3 +73,31 @@ input.input {
     text-indent: -9999px;
     width: 37px;
 }
+
+
+.custom-facebook-button {
+    padding: 2px 5px 2px 20px;
+    background: url('../img/FBicon.png') -15px center no-repeat;
+    text-indent: -9999px;
+    width: 37px;   
+
+}
+
+.navbar .brand {
+  float: left;
+  display: block;
+  padding: 10px 10px 10px;
+  margin-left: -20px;
+  font-size: 15px;
+  font-weight: 100;
+  color: #777777;
+  text-shadow: 0 0px 0 #ffffff;
+}
+
+.poold-logo {
+    padding: 2px 5px 2px 20px;
+    background: url('../img/logo.png') 10px center no-repeat;
+    text-indent: -9999px;
+    width: 37px;
+
+}
