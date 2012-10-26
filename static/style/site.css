@@ -1,0 +1,28 @@
+h2,
+h3 {
+    line-height: 1.4em;
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: normal;
+    margin: 0px;
+}
+
+h3 {
+    margin: 0px 0px 10px;
+}
+
+
+.row {
+    text-align: center;
+}
+
+.btn-pool-it {
+    display: block;
+    padding: 6px 70px;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0px auto;
+}
