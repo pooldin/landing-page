@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(232,229,226);
+}
+
 h2,
 h3 {
     line-height: 1.4em;
@@ -14,23 +18,58 @@ h3 {
     margin: 0px 0px 10px;
 }
 
+.navbar-inner {
+    margin-bottom: 40px;
+    -webkit-border-radius: 0px;
+       -moz-border-radius: 0px;
+            border-radius: 0px;
+}
+
+@media (max-width: 768px) {
+    .navbar-inner {
+        width: 100%;
+    }
+}
 
 .row {
     text-align: center;
 }
 
+input.input {
+    font-size: 1.2em;
+    padding: 8px 12px;
+    margin: 12px 0px;
+}
+
 .btn-pool-it {
     display: block;
-    padding: 6px 70px;
-    font-size: 14px;
+    padding: 8px 70px;
+    font-size: 1.3em;
     text-transform: uppercase;
     margin: 0px auto;
+    border-color: #c23e57;
+    background: #c23e57;
+    background: -webkit-linear-gradient(top, #c23e57 0%,#a43b4f 100%);
+    background:    -moz-linear-gradient(top, #c23e57 0%, #a43b4f 100%);
+    background:     -ms-linear-gradient(top, #c23e57 0%,#a43b4f 100%);
+    background:      -o-linear-gradient(top, #c23e57 0%,#a43b4f 100%);
+    background:        -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c23e57), color-stop(100%,#a43b4f));
+    background:         linear-gradient(to bottom, #c23e57 0%,#a43b4f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c23e57', endColorstr='#a43b4f',GradientType=0 );
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3),0 3px 4px rgba(0, 0, 0, 0.2);
+       -moz-box-shadow: 0 0 2px rgba(0,0,0,0.3),0 3px 4px rgba(0,0,0,0.2);
+            box-shadow: 0 0 2px rgba(0, 0, 0, 0.3),0 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-pool-it:hover {
+    background-color: #c23e57;
+    background-position: 0px;
 }
 
 
 .custom-tweet-button {
-    display: block;
     padding: 2px 5px 2px 20px;
-    background: <img src="static/img/tweet.png"> 1px center no-repeat;
-  }
-  
+    background: url('../img/tweet.png') 1px center no-repeat;
+    text-indent: -9999px;
+    width: 37px;
+}
