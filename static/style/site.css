@@ -80,6 +80,13 @@ input.input {
     background: url('../img/FBicon.png') 1px center no-repeat;
     text-indent: -9999px;
     width: 37px;   
+}
+
+.poold-logo {
+    padding: 2px 5px 2px 20px;
+    background: url('../img/logo.png') 10px center no-repeat;
+    text-indent: -9999px;
+    width: 37px;
 
 }
 
@@ -92,12 +99,4 @@ input.input {
   font-weight: 100;
   color: #777777;
   text-shadow: 0 0px 0 #ffffff;
-}
-
-.poold-logo {
-    padding: 2px 5px 2px 20px;
-    background: url('../img/logo.png') 10px center no-repeat;
-    text-indent: -9999px;
-    width: 37px;
-
 }
