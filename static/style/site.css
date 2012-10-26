@@ -77,7 +77,7 @@ input.input {
 
 .custom-facebook-button {
     padding: 2px 5px 2px 20px;
-    background: url('../img/FBicon.png') -15px center no-repeat;
+    background: url('../img/FBicon.png') 1px center no-repeat;
     text-indent: -9999px;
     width: 37px;   
 
