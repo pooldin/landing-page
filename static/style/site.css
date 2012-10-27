@@ -80,7 +80,7 @@ input.input {
     padding: 2px 5px 2px 10px;
     background: url('../img/logo.png') 5px center no-repeat;
     text-indent: -9999px;
-    width: 47px;
+    width: 39px;
 
 }
 
@@ -97,7 +97,7 @@ input.input {
 
 .coming-soon {
     flost: left;
-    font-size: 10px;
+    font-size: 12px;
     padding: 1px 1px 1px;
 }
 
